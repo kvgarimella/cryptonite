@@ -1,0 +1,10 @@
+Number of Layers : 17
+Number of args: 3
+CIFAR/Tiny (0/1): 1
+Number of Threads: 4
+Encrypting...
+All Encryptions: 10.796320
+Performing convolutions
+All Convs: 302.665676
+Decrypting...
+All Decryptions: 0.595555

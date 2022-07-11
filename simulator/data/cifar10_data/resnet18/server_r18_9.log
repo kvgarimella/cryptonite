@@ -1,0 +1,568 @@
+Layer dim: (1, 3, 32, 32) true
+Layer dim: (1, 64, 32, 32) false
+Layer dim: (1, 64, 32, 32) true
+Layer dim: (1, 64, 32, 32) false
+Layer dim: (1, 64, 32, 32) true
+Layer dim: (1, 64, 32, 32) false
+Layer dim: (1, 64, 32, 32) true
+Layer dim: (1, 64, 32, 32) false
+Layer dim: (1, 64, 32, 32) true
+Layer dim: (1, 64, 32, 32) false
+Layer dim: (1, 64, 32, 32) true
+Layer dim: (1, 128, 16, 16) false
+Layer dim: (1, 128, 16, 16) true
+Layer dim: (1, 128, 16, 16) false
+Layer dim: (1, 128, 16, 16) true
+Layer dim: (1, 128, 16, 16) false
+Layer dim: (1, 128, 16, 16) true
+Layer dim: (1, 128, 16, 16) false
+Layer dim: (1, 128, 16, 16) true
+Layer dim: (1, 256, 8, 8) false
+Layer dim: (1, 256, 8, 8) true
+Layer dim: (1, 256, 8, 8) false
+Layer dim: (1, 256, 8, 8) true
+Layer dim: (1, 256, 8, 8) false
+Layer dim: (1, 256, 8, 8) true
+Layer dim: (1, 256, 8, 8) false
+Layer dim: (1, 256, 8, 8) true
+Layer dim: (1, 512, 4, 4) false
+Layer dim: (1, 512, 4, 4) true
+Layer dim: (1, 512, 4, 4) false
+Layer dim: (1, 512, 4, 4) true
+Layer dim: (1, 512, 4, 4) false
+Layer dim: (1, 512, 4, 4) true
+Layer dim: (1, 512, 4, 4) false
+Layer dim: (1, 512, 4, 4) true
+Layer dim: (1, 512, 2, 2) true
+Start:   Receiving keys
+End:     Receiving keys.............................................................468.647ms
+Start:   Server offline phase
+··Start:   Linear layers offline phase
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................4.58ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.668ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................1.708s
+······Start:   Sending result
+Writing.. 4195152
+······End:     Sending result.......................................................7.677ms
+····End:     Server linear offline protocol.........................................1.729s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................3.945ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................100.258ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................13.500s
+······Start:   Sending result
+Writing.. 4195152
+······End:     Sending result.......................................................7.899ms
+····End:     Server linear offline protocol.........................................13.613s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................3.984ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................84.95ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................13.453s
+······Start:   Sending result
+Writing.. 4195152
+······End:     Sending result.......................................................8.335ms
+····End:     Server linear offline protocol.........................................13.549s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................3.942ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................101.559ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................13.397s
+······Start:   Sending result
+Writing.. 4195152
+······End:     Sending result.......................................................7.934ms
+····End:     Server linear offline protocol.........................................13.510s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................3.927ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................85.639ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................13.372s
+······Start:   Sending result
+Writing.. 4195152
+······End:     Sending result.......................................................7.868ms
+····End:     Server linear offline protocol.........................................13.470s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................5.506ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................119.215ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................26.741s
+······Start:   Sending result
+Writing.. 8390296
+······End:     Sending result.......................................................12.526ms
+····End:     Server linear offline protocol.........................................26.878s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.990ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................51.378ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................14.509s
+······Start:   Sending result
+Writing.. 2097580
+······End:     Sending result.......................................................4.367ms
+····End:     Server linear offline protocol.........................................14.567s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.980ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................60.819ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................14.520s
+······Start:   Sending result
+Writing.. 2097580
+······End:     Sending result.......................................................3.709ms
+····End:     Server linear offline protocol.........................................14.587s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.970ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................48.471ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................14.484s
+······Start:   Sending result
+Writing.. 2097580
+······End:     Sending result.......................................................4.318ms
+····End:     Server linear offline protocol.........................................14.539s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................2.825ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................65.481ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................29.46s
+······Start:   Sending result
+Writing.. 4195152
+······End:     Sending result.......................................................8.168ms
+····End:     Server linear offline protocol.........................................29.123s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.1ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................30.650ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................15.798s
+······Start:   Sending result
+Writing.. 1048794
+······End:     Sending result.......................................................2.691ms
+····End:     Server linear offline protocol.........................................15.832s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................989.120µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................29.558ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................15.769s
+······Start:   Sending result
+Writing.. 1048794
+······End:     Sending result.......................................................3.293ms
+····End:     Server linear offline protocol.........................................15.803s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................995.410µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................28.644ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................15.788s
+······Start:   Sending result
+Writing.. 1048794
+······End:     Sending result.......................................................2.685ms
+····End:     Server linear offline protocol.........................................15.820s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................1.464ms
+······Start:   Receiving Input
+······End:     Receiving Input......................................................31.893ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................31.702s
+······Start:   Sending result
+Writing.. 2097580
+······End:     Sending result.......................................................4.376ms
+····End:     Server linear offline protocol.........................................31.740s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................562.424µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................9.288ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................17.112s
+······Start:   Sending result
+Writing.. 524401
+······End:     Sending result.......................................................1.916ms
+····End:     Server linear offline protocol.........................................17.124s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................537.714µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................10.205ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................17.126s
+······Start:   Sending result
+Writing.. 524401
+······End:     Sending result.......................................................2.278ms
+····End:     Server linear offline protocol.........................................17.139s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................577.554µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................10.142ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................17.107s
+······Start:   Sending result
+Writing.. 524401
+······End:     Sending result.......................................................2.170ms
+····End:     Server linear offline protocol.........................................17.120s
+····Start:   Server linear offline protocol
+······Start:   Preprocessing
+······End:     Preprocessing........................................................304.846µs
+······Start:   Receiving Input
+······End:     Receiving Input......................................................13.147ms
+······Start:   Processing Layer
+······End:     Processing Layer.....................................................74.180ms
+······Start:   Sending result
+Writing.. 524401
+······End:     Sending result.......................................................2.256ms
+····End:     Server linear offline protocol.........................................90.25ms
+··End:     Linear layers offline phase..............................................300.360s
+··Start:   ReLU layers offline phase, with 557056 activations
+····Start:   ReLU offline protocol
+······Start:   Garbling
+······End:     Garbling.............................................................17.17s
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................4.438s
+······Start:   Sending GCs
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+Writing.. 139853840
+······End:     Sending GCs..........................................................7.653s
+Len of labels sent during OT: 23396352
+······Start:   OTs
+EXT-OT.1 : Sender to Receiver.. 748683264
+······End:     OTs..................................................................2.216s
+····End:     ReLU offline protocol..................................................31.326s
+··End:     ReLU layers offline phase, with 557056 activations.......................31.896s
+··Start:   Approx layers offline phase, with 0 activations
+··End:     Approx layers offline phase, with 0 activations..........................350ns
+End:     Server offline phase.......................................................332.256s
+Start:   Server online phase
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................81.963ms
+··End:     Linear layer.............................................................83.736ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................145.875ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................145.932ms
+Writing.. 77594630
+··End:     ReLU layer...............................................................211.561ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................24.55ms
+··End:     Linear layer.............................................................1.290s
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................158.270ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................158.330ms
+Writing.. 77594630
+··End:     ReLU layer...............................................................229.84ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................24.755ms
+··End:     Linear layer.............................................................1.360s
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................153.5ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................153.63ms
+Writing.. 77594630
+··End:     ReLU layer...............................................................229.475ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................21.633ms
+··End:     Linear layer.............................................................1.434s
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................163.432ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................163.495ms
+Writing.. 77594630
+··End:     ReLU layer...............................................................238.126ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................23.546ms
+··End:     Linear layer.............................................................1.436s
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................154.929ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................80ns
+····End:     ReLU online protocol...................................................154.984ms
+Writing.. 77594630
+··End:     ReLU layer...............................................................232.193ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................24.541ms
+··End:     Linear layer.............................................................1.358s
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................75.841ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................75.905ms
+Writing.. 38797320
+··End:     ReLU layer...............................................................108.707ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................16.688ms
+··End:     Linear layer.............................................................698.328ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................89.684ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................89.736ms
+Writing.. 38797320
+··End:     ReLU layer...............................................................125.33ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................14.669ms
+··End:     Linear layer.............................................................712.408ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................94.430ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................94.478ms
+Writing.. 38797320
+··End:     ReLU layer...............................................................130.287ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................17.969ms
+··End:     Linear layer.............................................................673.282ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................107.865ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................60ns
+····End:     ReLU online protocol...................................................107.923ms
+Writing.. 38797320
+··End:     ReLU layer...............................................................143.369ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................24.318ms
+··End:     Linear layer.............................................................711.306ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................32.880ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................32.925ms
+Writing.. 19398664
+··End:     ReLU layer...............................................................51.33ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................18.6ms
+··End:     Linear layer.............................................................359.833ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................35.694ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................35.741ms
+Writing.. 19398664
+··End:     ReLU layer...............................................................49.365ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................32.304ms
+··End:     Linear layer.............................................................379.565ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................58.626ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................80ns
+····End:     ReLU online protocol...................................................58.672ms
+Writing.. 19398664
+··End:     ReLU layer...............................................................71.0ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................18.742ms
+··End:     Linear layer.............................................................395.4ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................56.887ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................56.936ms
+Writing.. 19398664
+··End:     ReLU layer...............................................................69.266ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................26.684ms
+··End:     Linear layer.............................................................377.533ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................49.117ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................60ns
+····End:     ReLU online protocol...................................................49.166ms
+Writing.. 9699336
+··End:     ReLU layer...............................................................56.481ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................28.922ms
+··End:     Linear layer.............................................................191.472ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................78.142ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................80ns
+····End:     ReLU online protocol...................................................78.192ms
+Writing.. 9699336
+··End:     ReLU layer...............................................................86.93ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................47.776ms
+··End:     Linear layer.............................................................260.926ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................64.777ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................70ns
+····End:     ReLU online protocol...................................................64.833ms
+Writing.. 9699336
+··End:     ReLU layer...............................................................71.231ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................29.53ms
+··End:     Linear layer.............................................................202.190ms
+··Start:   ReLU layer
+····Start:   ReLU online protocol
+······Start:   Encoding inputs
+······End:     Encoding inputs......................................................107.338ms
+······Start:   Sending inputs
+······End:     Sending inputs.......................................................80ns
+····End:     ReLU online protocol...................................................107.396ms
+Writing.. 9699336
+··End:     ReLU layer...............................................................113.766ms
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................79.399µs
+··End:     Linear layer.............................................................114.859µs
+··Start:   Linear layer
+····Start:   Linear online protocol
+····End:     Linear online protocol.................................................344.166µs
+··End:     Linear layer.............................................................172.877ms
+Writing.. 131
+End:     Server online phase........................................................14.315s
+StartMsg: Offline Communication
+  
+  Read 728979272 bytes
+  Wrote 10305944682 bytes
+
+EndMsg: Offline Communication
+StartMsg: Online Communication
+  
+  Read 4986738 bytes
+  Wrote 659554715 bytes
+
+EndMsg: Online Communication

@@ -1,0 +1,11 @@
+group,function,value,sample_time_nanos,iteration_count
+relu_ev,,10,63861800.0,18
+relu_ev,,10,133912400.0,36
+relu_ev,,10,246527500.0,54
+relu_ev,,10,231992800.0,72
+relu_ev,,10,347494900.0,90
+relu_ev,,10,316403800.0,108
+relu_ev,,10,366774100.0,126
+relu_ev,,10,431609200.0,144
+relu_ev,,10,482956900.0,162
+relu_ev,,10,512373800.0,180
