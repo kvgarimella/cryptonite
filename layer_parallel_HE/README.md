@@ -2,7 +2,7 @@
 
 This directory is based off of [this repo](https://github.com/mc2-project/delphi/tree/master/rust/protocols-sys/c%2B%2B).
 
-Changes to `run_conv.cpp` and `benchmark.cpp` enabled layer-parallelization of homomorphic evaluation for the linear layers. Raw data is found in the `data` subdirectory. 
+Changes to `run_conv.cpp` and `benchmark.cpp` enabled layer-parallelization of homomorphic evaluation for the linear layers. Raw data for testing LPHE are  found in the `data` subdirectory. 
 
 You will need to install both [`eigen`](http://eigen.tuxfamily.org/index.php?title=Main_Page#Download) and build the `c/c++` components in this repo. You can install both components using:
 ```bash
