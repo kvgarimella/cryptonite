@@ -8,6 +8,8 @@ example:
 r18_he_latencies_cifar[10] = 
 latency of performing the HE evaluations
 of ResNet-18 on Cifar inputs given 11 thread 
+
+See the subdirectory "layer_parallel_HE" to see the raw data for collecting HE evaluation latencies.
 """
 
 
