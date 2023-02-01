@@ -9,7 +9,7 @@ import vgg16
 
 parser = argparse.ArgumentParser(description='Count ReLUs in ResNet-[18/32] or VGG-16')
 parser.add_argument("--network", type=str,   default="resnet18", help="resnet18, resnet32, vgg16")
-parser.add_argument("--dataset", type=str,   default="cifar10",  help="cifar10, tinyimagenet")
+parser.add_argument("--dataset", type=str,   default="cifar",  help="cifar, tinyimagenet, imagenet")
 args = parser.parse_args()
 
 mapping = {'cifar'        : [10, 32],
@@ -19,7 +19,8 @@ try:
   num_classes = mapping[args.dataset][0]
   image_size = mapping[args.dataset][1]
 except:
-  raise Exception("Error: unrecognized dataset")
+  print("Error: unrecognized dataset")
+  exit()
 
 if args.network == 'resnet18':
   net = resnet18.ResNet18(num_classes=num_classes)
