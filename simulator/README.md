@@ -1,12 +1,12 @@
 ## Simulator
 
-This directory contains the Private Inference simulator. Install the required packages by running:
-```bash
-pip install -r requirements.txt
-``` 
+This directory contains the Private Inference simulator. The directories:
+1. `data`: contains measurements from running the [Delphi codebase](https://github.com/mc2-project/delphi) on our specified networks. We ran the client and server on the same machine (separate processes) on our AMD EPYC 7502 32-Core server.
+2. `experiments`: contains our simulators for the Server- and Client-Garbler protocols. Also contains a `utils` subdirectory which incorporates our measurements. 
+3. `rust`: Rust files to add VGG-16, ResNet-18, and a shallow network (for understanding Client-Garbler) to Delphi.
 
 ### Parameters
-Run the following to see the parameters for both the Server- and Client-Garbler:
+Within the `experiments` directory, run the following to see the parameters for both the Server- and Client-Garbler:
 ```bash
 python simulate_client_garbler.py -h
 ```
@@ -32,6 +32,12 @@ python simulate_client_garbler.py -h
 ### Example
 To generate data for the Client-Garbler protocol using a ResNet32 network on CIFAR inputs, you could run:
 ```bash
-python simulate_client_garbler.py --sim-time=1440 --client-storage=16 --server-storage=1000 --upload-bandwidth=865 --download-bandwidth=135 --network=resnet32 --dataset=cifar10 --num-threads-client=4 --num-threads-server-he=31 --num-threads-server-gc=32 --start=0.001 --end=0.01 --step=45 --number-of-runs=50 --name=example
+python simulate_client_garbler.py --sim-time=1440 --client-storage=16 --server-storage=1000 --upload-bandwidth=865 --download-bandwidth=135 --network=resnet32 --dataset=cifar10 --num-threads-client=4 --num-threads-server-he=31 --num-threads-server-gc=32 --start=0.001 --end=0.01 --step=45 --number-of-runs=50 --name=examples
 ```
-This will create an `examples` directory containing the results of the specified simulation. 
+This will create an `examples` directory containing the results of the specified simulation. For each simulation run, the following information is collected:
+1. average inference times (including time spent pre-processing)
+2. arrival rates (as a sanity check)
+3. average number of client inferences serviced
+4. average time spent waiting in the queue
+5. average number of outstanding requests
+6. average time spent pre-processing during the online phase
