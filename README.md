@@ -8,3 +8,23 @@ This anonymous repo contains the codes for our submission. The high-level direct
 4. `artifact` : contains scripts to generate key figures in the paper
 
 Please refer to the READMEs within each subdirectory to learn how we collected data and how to run the simulator.
+
+## Installation
+First, clone this repo:
+```bash
+git clone https://github.com/asplos-anonymous-22/asplos-2022-sub.git
+```
+Then, change directories and install the Python dependencies:
+```bash
+cd asplos-2022-sub
+pip install -r requirements.txt
+```
+As a simple test, navigate to the `simulator/experiments` sub-directory and run:
+```bash
+cd simulator/experiments
+python simulate_server_garbler.py
+```
+This will run a single simulation of the Server-Garbler protocol and store the results in a directory called `tmp`.
+
+## Artifact Evaluation
+Please refer to the README within the `artifact` directory. 
