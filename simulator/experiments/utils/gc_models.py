@@ -16,6 +16,8 @@ Assumptions:
 - Client model is Intel Atom Z8350 2GB DDR3 32GB
 - Garbling and Evaluation time scales linearly
 - Linear speedup for the number of threads available
+
+See the subdirectory "garbled_circuits" to see the raw data for collecting GC garbling and evaluation latencies.
 """
 
 def garble_latency(garbler, num_relus, num_threads):
