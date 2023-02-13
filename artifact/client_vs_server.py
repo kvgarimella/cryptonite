@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import json
 import pprint
 import numpy as np
@@ -33,28 +34,35 @@ def get_data(ds_nw, base):
         prefix = get_prefix(npys)
         data[directory]["arrival_rates"]     = np.load(base + directory + "/{}_garbler_arrival_rates.npy".format(prefix))
         data[directory]["avg_inf_times"]     = np.load(base + directory + "/{}_garbler_avg_inf_times.npy".format(prefix))
-        data[directory]["avg_offline_times"] = np.load(base + directory + "/{}_garbler_avg_offline_times.npy".format(prefix))
+        #data[directory]["avg_offline_times"] = np.load(base + directory + "/{}_garbler_avg_offline_times.npy".format(prefix))
         data[directory]["avg_waiting_times"] = np.load(base + directory + "/{}_garbler_avg_waiting_times.npy".format(prefix))
         data[directory]["left_to_service"]   = np.load(base + directory + "/{}_garbler_left_to_service.npy".format(prefix))
         data[directory]["num_client_served"] = np.load(base + directory + "/{}_garbler_total_num_clients.npy".format(prefix))
         data[directory]['params'] = get_params(base, directory)
     return data
 
-all_data = get_data("garbler_", './')
+exp = sys.argv[1]
+all_data = get_data(exp, './')
 THRESHOLD = 2
 SEC_PER_MIN = 60.
 plt.figure(figsize=(10,7))
 colors = ['cornflowerblue', 'lightcoral', 'mediumaquamarine', 'sandybrown']
 
-experiment_keys = ['server_garbler_16gb', 'server_garbler_32gb', 'server_garbler_64gb', 'client_garbler_16gb']
+title_mapping = {"c10_r32" : "CIFAR - ResNet32", 
+                 "c10_vgg" : "CIFAR - VGG16",
+                 "c10_r18" : "CIFAR - ResNet18",
+                 "tiny_r32" : "TinyImageNet ResNet32",
+                 "tiny_vgg" : "TinyImageNet VGG16",
+                 "tiny_r18" : "TinyImageNet ResNet18"}
 
+experiment_keys = ['server_garbler_16gb', 'server_garbler_32gb', 'server_garbler_64gb', 'client_garbler_16gb']
 for k in experiment_keys:
     if "server" in k:
         label='Server-Garbler {}GB'
     else:
         label='Client-Garbler {}GB'
     i = re.findall(r'\d+',k)[0]
-
+    k = k + "_" + exp
     total_time = all_data[k]['avg_waiting_times'] + all_data[k]['avg_inf_times']
     mean_inf_times = np.mean(total_time, 0) / SEC_PER_MIN
     mask = all_data[k]['left_to_service'].mean(0) < THRESHOLD
@@ -63,8 +71,11 @@ for k in experiment_keys:
     plt.plot(all_data[k]['arrival_rates'][mask], mean_inf_times[mask],label=label.format(i), color=colors.pop(), linewidth=5)
 
 
+
 plt.xlabel("Workload (requests per second)")
 plt.ylabel("Mean Inference Latency (minutes)")
+plt.title(title_mapping[exp])
 plt.xticks(rotation = 45);
 plt.legend(loc='upper left')
 plt.show()
+
