@@ -29,6 +29,21 @@ This will run a single simulation of the Server-Garbler protocol and store the r
 ## Artifact Evaluation
 Please refer to the README within the `artifact` directory. 
 
+## Citation
+
+If you find our work useful, please use the following citation:
+```
+@inproceedings{10.1145/3582016.3582065,
+author = {Garimella, Karthik and Ghodsi, Zahra and Jha, Nandan Kumar and Garg, Siddharth and Reagen, Brandon},
+title = {Characterizing and Optimizing End-to-End Systems for Private Inference},
+year = {2023},
+publisher = {Association for Computing Machinery}, address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582065}, doi = {10.1145/3582016.3582065},
+booktitle = {Proceedings of the 28th ACM International Conference on
+Architectural Support for Programming Languages and Operating Systems, Volume 3},
+series = {ASPLOS 2023}}
+```
+
 ## Contributors
 - Karthik Garimella - Python, Rust, C++
 - [Zahra Ghodsi](https://ghodsi.me/) - Rust, C++
